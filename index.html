@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang cá nhân - Vũ Thị Mai Chi</title>
+    <style>
+        /* Thiết lập nền và font chữ chuẩn Sách giáo khoa */
+        body {
+            background-color: #f4f4f4;
+            font-family: "Times New Roman", Times, serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+
+        /* Khung trang chính */
+        .container {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 450px;
+            padding: 30px;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+
+        h1 {
+            font-size: 24pt;
+            margin-bottom: 20px;
+        }
+
+
+        /* Ảnh đại diện */
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 25px;
+            border: 1px solid #ddd;
+        }
+
+
+        /* Khung thông tin nét đứt giống ảnh mẫu */
+        .box {
+            border: 2px dashed #000;
+            border-radius: 25px;
+            padding: 15px;
+            margin-bottom: 20px;
+            line-height: 1.6;
+            font-size: 14pt;
+        }
+
+
+        .interests {
+            border-radius: 40px;
+        }
+
+
+        /* Khung chứa nhạc Spotify */
+        .spotify-box {
+            border: 2px dashed #000;
+            border-radius: 35px;
+            padding: 20px;
+            background-color: #fdfdfd;
+        }
+
+
+        .spotify-title {
+            font-size: 14pt;
+            margin-bottom: 15px;
+        }
+
+
+        iframe {
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="container">
+        <h1>Giới thiệu bản thân</h1>
+
+
+        <img src="mai-chi.jpg" alt="Vũ Thị Mai Chi" class="avatar">
+
+
+        <div class="box">
+            Tên: <strong>Vũ Thị Mai Chi</strong> <br>
+            Sinh nhật: <strong>03/01/2008</strong> <br>
+            Lớp: <strong>12D5</strong> <br>
+            Trường: <strong>THPT Dương Xá</strong>
+        </div>
+
+
+        <div class="box interests">
+            Sở thích: Nghe nhạc, Xem phim, Bơi, Chụp ảnh
+        </div>
+
+
+        <div class="spotify-box">
+            <div class="spotify-title">Bài hát yêu thích</div>
+            <iframe
+                src="https://open.spotify.com/embed/track/6T17ZI0glfM2IGLdUwtnLK?si=4e881557413f4fce&nd=1&dlsi=6711dcb5a4084989"
+                width="100%"
+                height="152"
+                frameborder="0"
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+
+
+</body>
+</html>
